@@ -9,7 +9,6 @@ public interface IRepository {
 
     String getLocation() throws RepositoryException;
     Map<String, Object> getConfig() throws RepositoryException;
-    boolean load(String location, Map<String, Object> config) throws RepositoryException;
 
     Collection<IToolDescriptor> getAll() throws RepositoryException;
     IToolDescriptor get(String id) throws RepositoryException;
