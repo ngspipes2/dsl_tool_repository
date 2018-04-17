@@ -5,7 +5,7 @@ import utils.RepositoryException;
 import java.util.Collection;
 import java.util.Map;
 
-public interface IRepository {
+public interface IToolRepository {
 
     String getLocation() throws RepositoryException;
     Map<String, Object> getConfig() throws RepositoryException;

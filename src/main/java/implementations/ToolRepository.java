@@ -1,19 +1,17 @@
 package implementations;
 
-import interfaces.IRepository;
-import pt.isel.ngspipes.tool_descriptor.interfaces.tool.IToolDescriptor;
+import interfaces.IToolRepository;
 import utils.RepositoryException;
-import utils.Util;
 
 import java.util.Map;
 
-public abstract class Repository implements IRepository {
+public abstract class ToolRepository implements IToolRepository {
 
     protected String location;
     protected Map<String, Object> config;
 
 
-    public Repository(String location, Map<String, Object> config) {
+    public ToolRepository(String location, Map<String, Object> config) {
         this.location = location;
         this.config = config;
     }
