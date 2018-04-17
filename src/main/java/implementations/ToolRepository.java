@@ -1,7 +1,7 @@
 package implementations;
 
 import interfaces.IToolRepository;
-import utils.RepositoryException;
+import utils.ToolRepositoryException;
 
 import java.util.Map;
 
@@ -19,10 +19,10 @@ public abstract class ToolRepository implements IToolRepository {
 
 
     @Override
-    public String getLocation() throws RepositoryException { return this.location; }
+    public String getLocation() throws ToolRepositoryException { return this.location; }
 
     @Override
-    public Map<String, Object> getConfig() throws RepositoryException { return this.config; }
+    public Map<String, Object> getConfig() throws ToolRepositoryException { return this.config; }
 
 
 }
