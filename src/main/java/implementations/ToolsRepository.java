@@ -1,17 +1,17 @@
 package implementations;
 
-import interfaces.IToolRepository;
+import interfaces.IToolsRepository;
 import utils.ToolRepositoryException;
 
 import java.util.Map;
 
-public abstract class ToolRepository implements IToolRepository {
+public abstract class ToolsRepository implements IToolsRepository {
 
     protected String location;
     protected Map<String, Object> config;
 
 
-    public ToolRepository(String location, Map<String, Object> config) {
+    public ToolsRepository(String location, Map<String, Object> config) {
         this.location = location;
         this.config = config;
     }

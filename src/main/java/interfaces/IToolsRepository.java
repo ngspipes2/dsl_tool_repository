@@ -5,7 +5,7 @@ import utils.ToolRepositoryException;
 import java.util.Collection;
 import java.util.Map;
 
-public interface IToolRepository {
+public interface IToolsRepository {
 
     String getLocation() throws ToolRepositoryException;
     Map<String, Object> getConfig() throws ToolRepositoryException;
