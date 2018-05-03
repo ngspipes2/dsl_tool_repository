@@ -1,6 +1,6 @@
 package interfaces;
 
-import pt.isel.ngspipes.tool_descriptor.interfaces.tool.IToolDescriptor;
+import pt.isel.ngspipes.tool_descriptor.interfaces.IToolDescriptor;
 import utils.ToolRepositoryException;
 import java.util.Collection;
 import java.util.Map;
