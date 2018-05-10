@@ -1,6 +1,6 @@
 package utils;
 
-public class ToolRepositoryException extends RuntimeException {
+public class ToolRepositoryException extends Exception {
 
     public ToolRepositoryException(String msg, Throwable cause) {
         super(msg, cause);
