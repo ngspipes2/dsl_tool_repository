@@ -1,4 +1,4 @@
-package interfaces;
+package pt.isel.ngspipes.tool_repository.interfaces;
 
 import pt.isel.ngspipes.tool_descriptor.interfaces.IToolDescriptor;
 import utils.ToolRepositoryException;

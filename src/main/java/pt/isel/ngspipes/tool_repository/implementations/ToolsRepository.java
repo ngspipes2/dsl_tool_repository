@@ -1,6 +1,6 @@
-package implementations;
+package pt.isel.ngspipes.tool_repository.implementations;
 
-import interfaces.IToolsRepository;
+import pt.isel.ngspipes.tool_repository.interfaces.IToolsRepository;
 import utils.ToolRepositoryException;
 
 import java.util.Map;
