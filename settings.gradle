@@ -1,4 +1,0 @@
-rootProject.name = 'tool_repository'
-
-include ':tool_descriptor'
-project(':tool_descriptor').projectDir = new File(settingsDir, '../dsl_tool_descriptor')
