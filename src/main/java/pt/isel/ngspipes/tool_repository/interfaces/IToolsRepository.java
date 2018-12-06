@@ -14,6 +14,8 @@ public interface IToolsRepository {
     byte[] getLogo() throws ToolsRepositoryException;
     void setLogo(byte[] logo) throws ToolsRepositoryException;
 
+    Collection<String> getToolsNames() throws ToolsRepositoryException;
+
     Collection<IToolDescriptor> getAll() throws ToolsRepositoryException;
     IToolDescriptor get(String toolName) throws ToolsRepositoryException;
     void update(IToolDescriptor tool) throws ToolsRepositoryException;
